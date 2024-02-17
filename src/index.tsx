@@ -49,9 +49,7 @@ export async function apply(ctx: Context, config: Config) {
         if (config.quoteEnable) {
           message = <message>
             <quote id={messageId} />
-            <at id={userId} />
             {h.parse(content)}
-            <at id={userId} />
           </message>
         } else {
           message = content;

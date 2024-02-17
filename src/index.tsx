@@ -47,6 +47,7 @@ export async function apply(ctx: Context, config: Config) {
           content = content.replace(new RegExp(key, "g"), value);
         }
         if (config.quoteEnable) {
+          //@ts-ignore
           message = <message>
             <quote id={messageId} />
             {h.parse(content)}

@@ -1,7 +1,7 @@
 {
-  "name": "koishi-plugin-autowithdraw",
+  "name": "@h4m5ter/koishi-plugin-autowithdraw",
   "description": "bot自动回复对应指令, 且指令撤回可以自动撤回回复消息",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,7 +9,6 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "koishi",
     "plugin",
@@ -27,6 +26,6 @@
     }
   },
   "peerDependencies": {
-    "koishi": "^4.11.3"
+    "koishi": "^4.16.8"
   }
 }
